@@ -28,7 +28,7 @@ jobs:
       id: conan
       uses: turtlebrowser/get-conan@main
       with:
-        version: 1.59.0
+        version: 2.0.17
       
     - name: Create default profile
       run: conan profile new default --detect
